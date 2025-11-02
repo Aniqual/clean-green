@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Activity 1 – Rooftop Solar PV (5 kW)</title>
+  <style>
+    body {font-family:Arial,sans-serif;margin:0;display:flex;height:100vh;}
+    nav {width:220px;background:#0b74da;color:white;padding:20px;}
+    nav a {color:white;text-decoration:none;display:block;margin:8px 0;padding:8px;border-radius:6px;}
+    nav a:hover {background:rgba(255,255,255,0.15);}
+    main {flex:1;overflow:auto;padding:30px;background:#fafafa;}
+    pre {background:#f2f2f2;padding:12px;border-radius:6px;}
+    h1 {color:#0b74da;}
+  </style>
+</head>
+<body>
+  <nav>
+    <h2>Navigation</h2>
+    <a href="index.html">🏠 Home</a>
+    <a href="activity1.html">Activity 1</a>
+    <a href="activity2.html">Activity 2</a>
+    <a href="activity3.html">Activity 3</a>
+  </nav>
+
+  <main>
+    <h1>Activity 1 – Rooftop Solar PV System (5 kW)</h1>
+    <h3>Block Diagram</h3>
+    <pre>
+[Roof-mounted 5 kWp PV Array] → [MPPT Charge Controller] → [Battery Bank]
+                                                   ↓
+                                            [Hybrid Inverter]
+                                                   ↓
+                                         [House AC Loads]
+                                                   ↓
+                                             [Grid Connection (Net Metering)]
+    </pre>
+
+    <h3>Explanation (≈180 words)</h3>
+    <p>
+      The rooftop solar PV system uses <strong>sunlight</strong> as the primary energy source. Solar photovoltaic panels mounted on the roof convert sunlight into DC electricity.
+      This DC power is regulated by an MPPT charge controller, which optimizes current and voltage while charging a <strong>battery bank</strong> for storage.
+      The stored energy passes through a <strong>hybrid inverter</strong> that converts DC to AC for household appliances such as lighting, fans, and kitchen equipment.
+      When generation exceeds load demand, surplus electricity is exported to the grid via <strong>net metering</strong>, and during low generation, power is drawn from the grid or batteries.
+      Outputs include continuous power supply and reduced electricity bills.
+      <strong>Real-world relevance:</strong> A 5 kW rooftop system ensures clean, renewable, and reliable energy for homes. It reduces carbon footprint, enhances energy independence,
+      and maintains operation during power cuts through stored energy — a practical solution for sustainable urban living.
+    </p>
+  </main>
+</body>
+</html>
